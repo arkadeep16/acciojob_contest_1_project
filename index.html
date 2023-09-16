@@ -3,18 +3,215 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Welcome to Wonderful City</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>akjbkubw</h1>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat magni
-      quaerat eius ex atque facere, aliquam qui. Architecto, incidunt saepe
-      facere tenetur vitae eum ex. Maiores quaerat delectus laudantium
-      architecto alias repellendus labore aperiam molestias saepe, dolores,
-      cupiditate, provident dolor quam eveniet reprehenderit. Consectetur
-      impedit hic ea, deserunt fugiat mollitia.
-    </p>
-    <button>jdhd</button>
+    <!-- header -->
+    <header>
+      <h1>KOLKATA</h1>
+      <p>The city of joy!</p>
+    </header>
+    <!-- nav -->
+    <nav>
+      <a href="#city-description">City Description</a>
+      <a href="#attractions">Attractions</a>
+      <a href="#city-statistics">City Statistics</a>
+      <a href="#citizen-feedback">Citizen Feedback</a>
+      <a href="#quotes">Quotes</a>
+      <a href="#contact-section">Contact</a>
+    </nav>
+    <!-- hero section -->
+    <section class="hero">
+      <div class="container">
+        <div class="flex-center">
+          <div class="hero-content">
+            <h2>About Our City <span>Kolkata</span></h2>
+            <p>
+              Kolkata, known as the "City of Joy," exudes rich culture and
+              history. Its iconic Howrah Bridge, vibrant markets, and delectable
+              street food define its unique charm.
+            </p>
+          </div>
+          
+            <img
+              src="./img/5a2db27fed8705.0314177715129442559729.png"
+              alt=""
+              width="40%"
+            />
+         
+       
+        </div>
+        
+    </section>
+    <!-- lists -->
+    <section class="lists">
+      <h1 class="title">Explore City Attractions</h1>
+      <div class="container flex-center">
+        
+        <div>
+          <h2>Main Attractions</h2>
+          <ul>
+            <li>
+              <h3>The Grand Palace</h3>
+              <p>
+                A majestic palace with rich history and stunning architecture.
+              </p>
+            </li>
+            <li>
+              <h3>City Park</h3>
+              <p>
+                A sprawling green oasis with scenic walking trails and a lake.
+              </p>
+            </li>
+            <li>
+              <h3>Historic District</h3>
+              <p>
+                Stroll through cobblestone streets and discover centuries-old
+                buildings.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>Local Favorites</h2>
+          <ol>
+            <li>
+              <h3>Artisan Coffee Shops</h3>
+              <p>Indulge in locally roasted coffee and cozy atmospheres.</p>
+            </li>
+            <li>
+              <h3>Hidden Rooftop Bars</h3>
+              <p>Experience the city's nightlife with panoramic views.</p>
+            </li>
+            <li>
+              <h3>Street Food Markets</h3>
+              <p>Savor diverse flavors from street vendors and food stalls.</p>
+            </li>
+          </ol>
+        </div>
+        
+
+       
+      </div>
+    </section>
+    <section class="statistics">
+      <div class="container">
+        <h2 style="text-align: center;">City Statistics</h2>
+        <div class="flex-center">
+          <table style="width: 50%">
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Value</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Population</td>
+                <td>1.5 million</td>
+            </tr>
+            <tr>
+                <td>Area (sq mi)</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>Average Temperature</td>
+                <td>22°C (72°F)</td>
+            </tr>
+           
+             
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+    </section>
+    <!-- feedback form -->
+    <section class="feedback">
+      <div class="form-style-6">
+        <h1>Citizen Feedback Form</h1>
+        <div class="card">
+          <form>
+            <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+  
+              <label for="age">Age:</label>
+              <input type="number" id="age" name="age" placeholder="Your age" required>
+            </div>
+            
+            <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Your email" required>
+  
+              <label for="rating">Overall Rating:</label>
+              <select id="rating" name="rating">
+                  <option value="excellent">Excellent</option>
+                  <option value="good">Good</option>
+                  <option value="average">Average</option>
+                  <option value="poor">Poor</option>
+              </select>
+            </div>
+            
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" placeholder="Your feedback" required></textarea>
+
+            <label>Additional Comments:</label>
+            <input type="checkbox" id="anonymous" name="anonymous">
+            <label class="checkbox-label" for="anonymous">Submit anonymously</label>
+<br><br>
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+        
+    </div>
+    </section>
+    <!-- quotes -->
+    <section class="quotes">
+      <div class="container">
+        <h1>Quotes from Citizens</h1>
+        <div style="display: flex; gap: 20px; ">
+          <div class="quote">
+          
+            <p>"This city's vibrant culture and welcoming people make it a truly special place to live." <span>- Sarah, Resident</span></p>
+        </div>
+        <div class="quote">
+            <p>"I've explored many cities, but this one's unique blend of history and modernity always captivates me." <span>- Michael, Visitor</span></p>
+        </div>
+        <div class="quote">
+          <p>"Every corner of this city has a story to tell, and I love being a part of its rich tapestry." <span>- Emily, Historian</span></p>
+      </div>  
+        </div>
+    </div>
+    </section>
+    <!-- contacts -->
+    <section class="contact">
+      <div class="container">
+        <h1 style="text-align: center;">Contact Section</h1>
+    <div style="display: flex; justify-content: center; align-items: center; gap:100px">
+      <address class="card" style="width: 50%;">
+        <p><i>Tourism & Information Office: Kolkata</i></p>
+        <p>City Name : Kolkata</p>
+        <p>Zip code: 700129</p>
+      </address>
+      <address class="card" style="width: 50%;">
+        <p> Email: <a href="mailto:info@citytourism.com">info@citytourism.com</a></p>
+        <p>Phone: <a href="tel:+123456789">+1 (234) 567-89</a></p>
+        <p>Website: <a href="https://www.citytourism.com" >www.citytourism.com</a></p>
+    </address>
+    </div>
+         
+       
+        
+    </div>
+    </section>
+
+    <footer class="footer">
+      <p>
+        &copy; 2023 Wonderful City. All rights reserved. | Designed by <span>Arkadeep Paul</span>
+      </p>
+    </footer>
   </body>
 </html>

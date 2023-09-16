@@ -1,0 +1,223 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+p {
+  font-size: 18px;
+}
+h2 {
+  font-size: 3rem;
+}
+span {
+  color: red;
+}
+section {
+  width: 100%;
+  padding: 50px 0;
+  margin: 0;
+  position: relative;
+}
+.container {
+  width: 80%; /* Set the width of the container */
+  max-width: 1200px; /* Set a maximum width to ensure it doesn't get too wide */
+  margin: 0 auto; /* Center the container horizontally on the page */
+  padding: 20px; /* Add padding to create space around the content */
+  /* background-color: #f5f5f5;
+    border: 1px solid #ccc; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  */
+}
+.title {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin: 10px 0;
+}
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.footer {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+.hero {
+  padding-top: 100px;
+  color: #000;
+  background-color: #3c31dd;
+  gap: 100px;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  color: #fff;
+}
+.lists {
+  background-color: #202731;
+  color: #fff;
+}
+/* table style */
+.statistics {
+  background-color: #dd3f31;
+  color: #fff;
+}
+thead {
+  background-color: #202731;
+  color: #fff;
+}
+table {
+  border-spacing: 0;
+  border-collapse: separate;
+  border-radius: 1em;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: #000;
+}
+th,
+td {
+  padding: 20px 20px;
+  text-align: left;
+}
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ddd;
+}
+.feedback {
+  background-color: #202731;
+}
+
+/* form style*/
+.form-style-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+.card {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 40px;
+  box-shadow: 10px 20px 20px #dd3f31;
+  border-radius: 10px;
+}
+form {
+  margin-top: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+input[type='text'],
+input[type='number'],
+input[type='email'],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+textarea {
+  height: 150px;
+}
+input[type='checkbox'] {
+  margin-right: 5px;
+}
+.checkbox-label {
+  display: inline;
+}
+input[type='submit'] {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* quotes */
+.quotes {
+  background-color: #4caf50;
+}
+.quote {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-left: 4px solid #0074d9; /* Color for emphasis */
+  font-style: italic;
+  border-radius: 25px;
+  color: #333;
+}
+.quotes h1 {
+  color: #fff;
+  text-align: center;
+}
+.quote p span {
+  color: #333;
+  font-weight: bold;
+}
+.author {
+  text-align: right;
+  color: #333;
+}
+.contact {
+  background-color: #202731;
+  color: #fff;
+}
+.contact a {
+  color: #fff;
+}
+
+address {
+  font-style: italic;
+}
+.contact p {
+  margin-bottom: 10px;
+}
+.contact a {
+  color: #0074d9;
+  text-decoration: none;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+footer span {
+  color: red;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
